@@ -5,14 +5,19 @@
   
 
   
-  <title>Archives: 2018 | Hexo</title>
+  <title>Android RSA加密时填充算法 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/archives/2018/index.html">
+  <meta name="description" content="问题描述在做登陆功能时，用RSA进行了加密，在后台Java端测试加密解密，均没有任何问题。可把代码拷贝在Android端时，请求后台接口，总是返回解密失败。 解决方法Android端与Java端的填充算法不一致。 Java端代码 1Cipher cipher=Cipher.getInstance(&quot;RSA&quot;); 而在Android则要使用 1Cipher cipher = Cipher.getIn">
+<meta name="keywords" content="Android,RSA">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Android RSA加密时填充算法">
+<meta property="og:url" content="http://yoursite.com/2017/11/24/2017-11-24-rsa/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="问题描述在做登陆功能时，用RSA进行了加密，在后台Java端测试加密解密，均没有任何问题。可把代码拷贝在Android端时，请求后台接口，总是返回解密失败。 解决方法Android端与Java端的填充算法不一致。 Java端代码 1Cipher cipher=Cipher.getInstance(&quot;RSA&quot;); 而在Android则要使用 1Cipher cipher = Cipher.getIn">
+<meta property="og:updated_time" content="2018-01-10T02:16:04.670Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="Android RSA加密时填充算法">
+<meta name="twitter:description" content="问题描述在做登陆功能时，用RSA进行了加密，在后台Java端测试加密解密，均没有任何问题。可把代码拷贝在Android端时，请求后台接口，总是返回解密失败。 解决方法Android端与Java端的填充算法不一致。 Java端代码 1Cipher cipher=Cipher.getInstance(&quot;RSA&quot;); 而在Android则要使用 1Cipher cipher = Cipher.getIn">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -59,40 +64,68 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2018" class="archive-year">2018</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2018/01/10/hello-world/" class="archive-article-date">
-  <time datetime="2018-01-10T02:20:59.509Z" itemprop="datePublished">Jan 10</time>
+        <section id="main"><article id="post-2017-11-24-rsa" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/11/24/2017-11-24-rsa/" class="article-date">
+  <time datetime="2017-11-23T16:00:00.000Z" itemprop="datePublished">2017-11-24</time>
 </a>
-      
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/01/10/hello-world/">Hello World</a>
+    <h1 class="article-title" itemprop="name">
+      Android RSA加密时填充算法
     </h1>
   
 
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h2><p>在做登陆功能时，用RSA进行了加密，在后台Java端测试加密解密，均没有任何问题。可把代码拷贝在Android端时，请求后台接口，总是返回解密失败。</p>
+<h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p>Android端与Java端的填充算法不一致。</p>
+<p>Java端代码</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Cipher cipher=Cipher.getInstance(<span class="string">"RSA"</span>);</span><br></pre></td></tr></table></figure>
+<p>而在Android则要使用</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Cipher cipher = Cipher.getInstance(<span class="string">"RSA/ECB/PKCS1Padding"</span>);</span><br></pre></td></tr></table></figure>
 
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/11/24/2017-11-24-rsa/" data-id="cjc8hlq220003ukr03f609uuo" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Android/">Android</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/RSA/">RSA</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2018/01/10/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Hello World
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2017/11/11/2017-11-11-vue/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">给IView组件加上点击事件</div>
+    </a>
+  
+</nav>
+
+  
+</article>
 
 </section>
         

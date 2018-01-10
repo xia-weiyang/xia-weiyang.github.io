@@ -5,14 +5,19 @@
   
 
   
-  <title>Archives: 2018 | Hexo</title>
+  <title>js跨域解决办法 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/archives/2018/index.html">
+  <meta name="description" content="解决方法在拦截器中给response设置响应头 12httpServletResponse.setHeader(&quot;Access-Control-Allow-Origin&quot;,&quot;*&quot;);httpServletResponse.setHeader(&quot;Access-Control-Allow-Headers&quot;, &quot;Authentication,Origin, X-Requested-With, Conte">
+<meta name="keywords" content="Js,Springboot">
+<meta property="og:type" content="article">
+<meta property="og:title" content="js跨域解决办法">
+<meta property="og:url" content="http://yoursite.com/2017/11/03/2017-11-3-js/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="解决方法在拦截器中给response设置响应头 12httpServletResponse.setHeader(&quot;Access-Control-Allow-Origin&quot;,&quot;*&quot;);httpServletResponse.setHeader(&quot;Access-Control-Allow-Headers&quot;, &quot;Authentication,Origin, X-Requested-With, Conte">
+<meta property="og:updated_time" content="2018-01-10T02:16:04.670Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="js跨域解决办法">
+<meta name="twitter:description" content="解决方法在拦截器中给response设置响应头 12httpServletResponse.setHeader(&quot;Access-Control-Allow-Origin&quot;,&quot;*&quot;);httpServletResponse.setHeader(&quot;Access-Control-Allow-Headers&quot;, &quot;Authentication,Origin, X-Requested-With, Conte">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -59,40 +64,65 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2018" class="archive-year">2018</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2018/01/10/hello-world/" class="archive-article-date">
-  <time datetime="2018-01-10T02:20:59.509Z" itemprop="datePublished">Jan 10</time>
+        <section id="main"><article id="post-2017-11-3-js" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/11/03/2017-11-3-js/" class="article-date">
+  <time datetime="2017-11-02T16:00:00.000Z" itemprop="datePublished">2017-11-03</time>
 </a>
-      
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/01/10/hello-world/">Hello World</a>
+    <h1 class="article-title" itemprop="name">
+      js跨域解决办法
     </h1>
   
 
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p>在拦截器中给response设置响应头</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">httpServletResponse.setHeader(<span class="string">"Access-Control-Allow-Origin"</span>,<span class="string">"*"</span>);</span><br><span class="line">httpServletResponse.setHeader(<span class="string">"Access-Control-Allow-Headers"</span>, <span class="string">"Authentication,Origin, X-Requested-With, Content-Type, Accept"</span>);</span><br></pre></td></tr></table></figure>
+<p>其中*号代表允许所有域名</p>
 
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/11/03/2017-11-3-js/" data-id="cjc8hlq1v0001ukr0geim05ww" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Js/">Js</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Springboot/">Springboot</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2017/11/11/2017-11-11-vue/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          给IView组件加上点击事件
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2017/10/12/2017-10-12-git/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">.gitignore规则不生效的解决办法</div>
+    </a>
+  
+</nav>
+
+  
+</article>
 
 </section>
         
