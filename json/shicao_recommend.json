@@ -1,0 +1,124 @@
+{
+	"banner": [{
+		"img_path": "http://zhiliaodev.oss-cn-beijing.aliyuncs.com/generalize/2020_03/25/5f4771ca271f2aaf0483ee023f42658a.png",
+		"img_url": "http://www.baidu.com"
+	}],
+	"recommend": [{
+		"name": "全部",
+		"course_list": [{
+			"cover_url": "/public/image/dca3e0ec2a469eec113a82b6321dae2d.jpg",
+			"body": "2017职称英语等级考试全程班（理工A）text",
+			"labels": [
+				"会计专员",
+				"建筑业",
+				"职场必学"
+			],
+			"statistics": 123,
+			"initial_price": 456,
+			"price": 456
+		}],
+		"label_list": [{
+			"id": "1",
+			"name": "测试",
+			"sort": "12"
+		}, {
+			"id": "2",
+			"name": "测试2",
+			"sort": "13"
+		}]
+ 
+	}, {
+		"name": "零基础入门",
+		"course_list": [{
+			"cover_url": "/public/image/dca3e0ec2a469eec113a82b6321dae2d.jpg",
+			"body": "2017职称英语等级考试全程班（理工A）text",
+			"labels": [
+				"会计专员",
+				"建筑业",
+				"职场必学"
+			],
+			"statistics": 123,
+			"initial_price": 456,
+			"price": 456
+		}],
+		"label_list": [{
+			"id": "6",
+			"name": "测试",
+			"sort": "12"
+		}, {
+			"id": "2",
+			"name": "测试2",
+			"sort": "13"
+		}]
+ 
+	}],
+	"study": [{
+		"name": "全部",
+		"course_list": [{
+			"cover_url": "/public/image/dca3e0ec2a469eec113a82b6321dae2d.jpg",
+			"body": "2017职称英语等级考试全程班（理工A）text",
+			"labels": [
+				"会计专员",
+				"建筑业",
+				"职场必学"
+			],
+			"statistics": 123
+		}],
+		"label_list": [{
+			"id": "1",
+			"name": "测试",
+			"sort": "12"
+		}, {
+			"id": "2",
+			"name": "测试2",
+			"sort": "13"
+		}],
+		"recommend_list": [{
+			"cover_url": "/public/image/dca3e0ec2a469eec113a82b6321dae2d.jpg",
+			"body": "2017职称英语等级考试全程班（理工A）text",
+			"labels": [
+				"会计专员",
+				"建筑业",
+				"职场必学"
+			],
+			"statistics": 123,
+			"initial_price": 456,
+			"price": 456
+		}]
+	}, {
+		"name": "零基础入门",
+		"course_list": [{
+			"cover_url": "/public/image/dca3e0ec2a469eec113a82b6321dae2d.jpg",
+			"body": "2017职称英语等级考试全程班（理工A）text",
+			"labels": [
+				"会计专员",
+				"建筑业",
+				"职场必学"
+			],
+			"statistics": 123
+		}],
+		"recommend_list": [{
+			"cover_url": "/public/image/dca3e0ec2a469eec113a82b6321dae2d.jpg",
+			"body": "2017职称英语等级考试全程班（理工A）text",
+			"labels": [
+				"会计专员",
+				"建筑业",
+				"职场必学"
+			],
+			"statistics": 123,
+			"initial_price": 456,
+			"price": 456
+		}],
+		"label_list": [{
+			"id": "6",
+			"name": "测试",
+			"sort": "12"
+		}, {
+			"id": "2",
+			"name": "测试2",
+			"sort": "13"
+		}]
+ 
+	}],
+	"shicao_vip": 1
+}
