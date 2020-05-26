@@ -1,7 +1,1 @@
-{
-    "host": {
-        "pro": "https://api.jiushig.com",
-        "test": "https://apitest.jiushig.com",
-        "dev": "http://192.168.0.130:8080"
-    }
-}
+{"host":{"pro": "https://api.jiushig.com","test": "https://apitest.jiushig.com"}}
